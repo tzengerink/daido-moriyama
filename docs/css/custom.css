@@ -10,24 +10,26 @@
   font-size: 1em;
 }
 
+.reveal section ul {
+  font-size: .8em;
+}
+
 .reveal section img {
 	border: 0;
 	box-shadow: unset;
 	max-height: 600px;
-}
-
-.reveal section img.portrait {
-}
-
-.reveal section img.right {
 	border: 0;
-	float: right;
-	height: 400px;
 	vertical-align: top;
 }
 
-.reveal section img.duo {
-	height: 300px;
+.reveal section img.landscape {
+	width: 320px;
+	float: right;
+}
+
+.reveal section img.right {
+	float: right;
+	height: 400px;
 }
 
 .reveal section blockquote {
